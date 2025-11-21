@@ -1,0 +1,9 @@
+[submodule "porto"]
+	path = themes/porto
+	url = https://github.com/hugo-porto/theme.git
+[submodule "profile"]
+	path = themes/profile
+	url = https://github.com/gurusabarish/hugo-profile.git
+[submodule "themes/universal"]
+	path = themes/universal
+	url = https://github.com/devcows/hugo-universal-theme

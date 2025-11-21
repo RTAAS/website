@@ -1,0 +1,74 @@
+##
+# Standard Options
+##
+
+baseURL: https://detect.audio/
+title: RTAAS
+
+languageCode: en
+theme: universal
+disablePathToLower: true
+pygmentsCodeFences: true
+pygmentsStyle: xcode
+
+##
+# Top Row
+##
+
+menu:
+  topbar:
+    - weight: 1
+      name: "GitHub"
+      url: "https://github.com/devcows/hugo-universal-theme"
+      pre: "<i class='fab fa-2x fa-github'></i>"
+  main:
+    - weight: 1
+      name: "Home"
+      url: "/"
+    - weight: 2
+      name: "Articles"
+      url: "/articles"
+
+params:
+  logo_text: RTAAS
+  logo: images/logo-rtaas.png
+  logo_small: images/logo-small.png
+  contact_url: /contact
+
+  ##
+  # Misc
+  ##
+
+  widgets: {}
+  date_format: "2 January 2006"
+
+
+  recent_posts:
+    enable: true
+    title: Recent Articles
+
+  ##
+  # Footer Row
+  ##
+
+  about_us: |
+      We are actively building a web service ... not a website; this will come later. ;)
+  footer:
+    recent_posts:
+      enable: true
+  address: |
+      <p><b>Nobody Is Home ...</b>
+        <br>We do not currently have a product, but hope to very soon!
+      </p>
+  copyright: "&copy; 2025, Michael Lustfield (MTecknology)"
+  final_text: ""
+
+##
+# Other Options
+##
+
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
